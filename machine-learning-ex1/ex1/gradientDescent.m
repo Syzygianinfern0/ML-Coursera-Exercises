@@ -22,7 +22,7 @@ for iter = 1:num_iters
     temp1 = theta(1) - (alpha/m)*(sum(error.*X(:,1)));
     temp2 = theta(2) - (alpha/m)*(sum(error.*X(:,2)));
     
-    theta = [temp1;temp
+    theta = [temp1;temp2];
 
     % ============================================================
 
